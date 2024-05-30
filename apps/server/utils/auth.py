@@ -42,7 +42,7 @@ def authenticate(
         else:
             db_account = AccountModel.get_account_created_by(db, db_user.id)
             
-        # if account_id == "undefined" or not account_id:
+        # if account_id == "undefined" or not account_id: 
         #     db_account = AccountModel.get_account_created_by(db, db_user.id)
         # else:
         #     db_account = AccountModel.get_account_by_access(
